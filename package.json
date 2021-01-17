@@ -1,7 +1,7 @@
 {
-  "name": "morgan",
+  "name": "morgan-projekt-host",
   "description": "HTTP request logger middleware for node.js",
-  "version": "1.10.0",
+  "version": "1.0.0",
   "contributors": [
     "Douglas Christopher Wilson <doug@somethingdoug.com>",
     "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)"
@@ -13,7 +13,10 @@
     "logger",
     "middleware"
   ],
-  "repository": "expressjs/morgan",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/projekt-host/morgan"
+  },
   "dependencies": {
     "basic-auth": "~2.0.1",
     "debug": "2.6.9",
@@ -48,5 +51,14 @@
     "test": "mocha --check-leaks --reporter spec --bail",
     "test-ci": "nyc --reporter=text npm test",
     "test-cov": "nyc --reporter=html --reporter=text npm test"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/projekt-host/morgan"
+  },
+  "homepage": "https://github.com/projekt-host/morgan#readme",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "author": "mrtalon63 <marcin@mczop.co.pl>"
 }

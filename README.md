@@ -1,11 +1,7 @@
 # morgan
 
-[![NPM Version][npm-version-image]][npm-url]
-[![NPM Downloads][npm-downloads-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Test Coverage][coveralls-image]][coveralls-url]
 
-HTTP request logger middleware for node.js
+HTTP request logger middleware for node.js with our little mod :)
 
 > Named after [Dexter](http://en.wikipedia.org/wiki/Dexter_Morgan), a show you should not watch until completion.
 
